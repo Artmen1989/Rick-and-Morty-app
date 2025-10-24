@@ -19,12 +19,25 @@
 - **Dio** - HTTP-клиент
 - **Equatable** - сравнение объектов
 
-## Установка и запуск
-
 ### Требования
 
 - Flutter SDK >= 3.0.0
 - Dart >= 3.0.0
+- Android Studio (для Android сборки)
+- Xcode (для iOS сборки, только на macOS)
+
+### Сборка для Android🚀
+#### APK файл (для ручной установки)
+
+```bash
+# Сборка debug версии
+flutter build apk --debug
+
+# Сборка release версии
+flutter build apk --release
+
+# Сборка с уменьшенным размером
+flutter build apk --release --split-per-abi
 
 ### Шаги установки
 
@@ -32,3 +45,4 @@
 ```bash
 git clone https://github.com/your-username/rick-and-morty-app.git
 cd rick-and-morty-app
+
