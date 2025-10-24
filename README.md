@@ -19,8 +19,10 @@
 - **Dio** - HTTP-клиент
 - **Equatable** - сравнение объектов
 
-### Требования
+### WEB-ВЕРСИЯ
+- Запуск в браузере: flutter run -d chrome
 
+### Требования для Android
 - Flutter SDK >= 3.0.0
 - Dart >= 3.0.0
 - Android Studio (для Android сборки)
